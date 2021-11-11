@@ -3,13 +3,13 @@ html {
   font-family: "Asap Condensed", sans-serif;
 }
 
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-}
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
